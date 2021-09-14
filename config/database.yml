@@ -89,6 +89,3 @@ production:
   url: <%= ENV['DATABASE_URL'] %>
   pool: <%= ENV['DATABASE_POOL_SIZE'] || 10 %>
 
-# run
-
-# rails server -p 3333
